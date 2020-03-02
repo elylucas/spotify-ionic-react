@@ -1,0 +1,70 @@
+.track-content {
+  --padding-start: 24px;
+  --padding-end: 24px;
+  user-select: none;
+}
+
+.track-content img {
+  min-width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  margin-top: 24px;
+}
+
+.track-content h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.track-content h4 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 6px;
+  color: #aaa;
+}
+
+.track-controls {
+  display: flex;
+  flex-direction: row;
+  font-size: 36px;
+}
+
+.track-controls ion-icon {
+  flex: 1;
+  cursor: pointer;
+}
+
+.track-controls .play-pause {
+  font-size: 64px;
+}
+
+.track-progress {
+}
+
+.track-progress-track {
+  position: relative;
+  height: 2px;
+  background-color: #aaa;
+}
+
+.track-progress-current {
+  position: absolute;
+  z-index: 1;
+  height: 2px;
+  background-color: #fff;
+}
+
+.track-progress-time {
+  display: flex;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.track-progress-time-current {
+  flex: 1;
+  color: #eee;
+}
+
+.track-progress-time-left {
+  color: #aaa;
+}
